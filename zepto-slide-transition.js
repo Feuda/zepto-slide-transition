@@ -21,14 +21,12 @@
         var marginBottom = this.css('margin-bottom');
         var paddingTop = this.css('padding-top');
         var paddingBottom = this.css('padding-bottom');
-        var height = this.css('height');
         
         // set initial css for animation
         this.css({
             position: position,
             visibility: 'visible',
             overflow: 'hidden',
-            height: 0,
             marginTop: 0,
             marginBottom: 0,
             paddingTop: 0,
@@ -37,7 +35,6 @@
         
         // animate to gotten height, margin and padding
         this.animate({
-            height: height,
             marginTop: marginTop,
             marginBottom: marginBottom,
             paddingTop: paddingTop,
